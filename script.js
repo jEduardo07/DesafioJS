@@ -46,9 +46,9 @@ document.getElementById('ResultadoCirculo').innerHTML = "A Area do Circulo é: "
 
 function converterFahrenheit(){
 // Solicitar a temperatura em Fahrenheit
-let temperaturaFahrenheit = parseFloat(document.getElementById('ResultadoFahrenheit').value);
+let temperaturaFahrenheit = parseFloat(document.getElementById('Convertor').value);
 
-// Converter Fahrenheit para Celsius
+// Converter Fahrenheit para Celsius/*  */
 let temperaturaCelsius = (temperaturaFahrenheit - 32) * 5 / 9;
 
 // Exibir o resultado
